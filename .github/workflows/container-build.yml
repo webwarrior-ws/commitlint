@@ -3,8 +3,6 @@ on:
   push:
     tags:
       - '**'
-  schedule:
-    - cron: '0 0 * * *'
   pull_request:
     paths:
       - 'Dockerfile.ci'
